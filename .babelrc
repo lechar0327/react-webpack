@@ -1,0 +1,11 @@
+{
+    //配置相应内容来告诉babel-loader使用ES6和JSX插件
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        ["@babel/plugin-proposal-decorators", { "legacy": true }],
+        ["@babel/plugin-proposal-class-properties", { "loose" : true }]
+    ]
+}

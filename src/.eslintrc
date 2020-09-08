@@ -1,0 +1,16 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    // 开发环境与ESLint当前的解析功能不兼容
+    // npm install babel-eslint --save-dev
+    "parser": "babel-eslint",
+    "rules": {
+        // "semi": "error",
+        "no-multi-spaces": "error"
+    }
+}
